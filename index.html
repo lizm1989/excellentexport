@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
         <title>Export to excel test</title>
         <script src="excellentexport.js"></script>
         <style>
@@ -29,14 +30,14 @@
             <tr>
                 <th>Column 1</th>
                 <th>Column "cool" 2</th>
-                <th>Column 3</th>
-                <th>Column 4</th>
+                 <td style="mso-number-format:'\@';">1604135477445226791</td>
+                <th>Column 导出excel不采用科学计数</th>
             </tr>
             <tr>
                 <td>100,111</td>
                 <td>200</td>
                 <td>300</td>
-                <td>áéíóú</td>
+                <td>导出中文不乱码</td>
             </tr>
             <tr>
                 <td>400</td>
@@ -49,7 +50,7 @@
                 <td>More text</td>
                 <td>Text with
                 new line</td>
-                <td>ç ñ ÄËÏÖÜ äëïöü</td>
+                <td>导出中文不乱码2</td>
             </tr>
         </table>
 
