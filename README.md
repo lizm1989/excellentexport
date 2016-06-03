@@ -101,6 +101,7 @@ IE9 and upper do not support *data:* url schema on links.
 
 <td style="mso-number-format:'\@';">100821199909091234</td>
 
+<pre>
 mso-number-format:"0"	NO Decimals
 mso-number-format:"0\.000"	3 Decimals
 mso-number-format:"\#\,\#\#0\.000"	Comma with 3 dec
@@ -117,3 +118,4 @@ mso-number-format:"Percent"	Percent - two decimals
 mso-number-format:"0%"	Percent - no decimals
 mso-number-format:"0\.E+00"	Scientific Notation
 mso-number-format:"\@"	Text
+</pre>
